@@ -8,7 +8,7 @@ import Art from './components/pages/art/Art';
 import Arcade from './components/pages/arcade/Arcade';
 import AboutMe from './components/pages/aboutme/AboutMe';
 import CreamistryGame from './components/pages/arcade/CreamistryGame';
-import MonsterGame from './components/pages/arcade/MonsterGame';
+// import MonsterGame from './components/pages/arcade/MonsterGame';
 import './fonts/MS_Sans_Serif_Bold.ttf';
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route path = '/arcade' element = {<Arcade/>} />
           <Route path = '/about-me' element = {<AboutMe/>} />
           <Route path = '/creamistry' element = {<CreamistryGame/>} />
-          <Route path = '/monster-bartender' element = {<MonsterGame/>} />
+          {/* <Route path = '/monster-bartender' element = {<MonsterGame/>} /> */}
         </Routes>
       </Router>
   );
