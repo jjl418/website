@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jjl418.github.io/website",
+  "homepage": ".",
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
     "gh-pages": "^6.1.1"
   }
 }
