@@ -1,0 +1,302 @@
+.projects-background-2
+{
+    width: 100%;
+    display: flex;
+    background:
+    conic-gradient(from 90deg at 3px 3px,#0000 90deg,rgb(255, 168, 224) 0) 
+    0 0/100px 100px;
+    position: absolute;
+    top: 42px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    z-index: 0;
+    height: 100%;
+    /* margin-bottom: 43px; */
+}
+
+.art-tab-container
+{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8%;
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+}
+
+.art-tab
+{
+    position:absolute;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    list-style: none;
+    height: 34px;
+    align-items: end;
+    width: 220px;
+}
+
+.art-tab button
+{
+	background: #fff;
+	filter: contrast(1);
+	--mask: linear-gradient(red, #{rgba(#000, .30)});
+
+    
+
+    background: #9fb6f4;
+    background-image: linear-gradient(to right, #8698ec , #609de7);
+    
+    height: 30px; 
+    width: 100px;
+    align-items: flex-end;
+    border-radius: 5px 5px 0 0;
+    border-right: #7b88d0;
+    border-top: #aed5ff;
+    border-bottom: #596da400;
+    border-left: #bbd8f9;
+    border-style: solid;
+    box-shadow: -1.5px -1.5px #000000, 2px -2px #000000, -2px 0px #000000,
+    2px 0px #000000, 0 -2px #000000;
+    color: #282828;
+    
+    justify-content: center;
+    display: flex;
+
+    /* &::before {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background: 
+			radial-gradient(#91b9fe, transparent) 0 0/ 0.3em 0.3em space;
+		-webkit-mask: var(--mask);
+				mask: var(--mask);
+		content: '';
+	} */
+}
+
+.art-tab button:hover{
+    height: 32px;
+}
+
+.art-tab-caption
+{
+    align-self: center;
+    
+    color: hsl(225, 34%, 48%);
+    display: flex;
+    font-family: MSSansSerif;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    height: 30px; 
+    width: 100px;  
+}
+
+.art-tab-caption:hover{
+    font-size: 1.2rem;
+}
+
+.art-tab-layout
+{
+    margin-top: 36px;
+    background-color: white;
+
+	background: #fff;
+	filter: contrast(1);
+	/* --mask: linear-gradient(red, #{rgba(#000, .30)}); */
+
+    
+
+    background: #9fb6f4;
+    background-image: linear-gradient(to right, #8698ec , #609de7);
+    
+    height: 400px;
+    width: 100%;
+    /* align-items: flex-end; */
+    border-radius: 0px 5px 5px 5px;
+    border-right: #7b88d0;
+    border-top: #aed5ff00;
+    border-bottom: #596da4;
+    border-left: #bbd8f9;
+    border-style: solid;
+    box-shadow: -2px -2px #000000, 2px -2px #000000, -2px 0px #000000,
+    2px 0px #000000, 0 -2px #000000;
+    color: #282828;
+    
+    justify-content: center;
+    display: flex;
+
+    /* &::before {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background: 
+			radial-gradient(#91b9fe, transparent) 0 0/ 0.3em 0.3em space;
+		-webkit-mask: var(--mask);
+				mask: var(--mask);
+		content: '';
+	} */
+    
+}
+
+.tab-switching
+{
+    display:none;
+}
+
+.tab-content
+{
+    display: flex;
+    position:absolute;
+    height: 400px;
+    width: 100%;
+}
+
+.art-content
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position:absolute;
+}
+
+.art-image
+{
+    border: solid 2px;
+    box-shadow: 3px 3px 1px rgb(80, 99, 165), -2px 2px 1px rgb(115, 135, 207), -2px 0px 1.5px rgb(115, 135, 207),
+    2px 0px 1.5px rgb(115, 135, 207), 0 2px 1.5px rgb(115, 135, 207), -2px -2px 1.5px rgb(115, 135, 207), 2px -2px 1.5px rgb(115, 135, 207);
+}
+
+.next-button-art
+{ 
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    z-index: 2;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 2px 2px rgb(80, 99, 165);
+    align-self: center;
+    right:0;
+}
+
+.next-button-art:hover
+{
+    background-color: rgb(218, 218, 218);
+}
+
+.prev-button-art
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    z-index: 2;
+    border-radius: 5px;
+    align-self: center;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 2px 2px rgb(80, 99, 165);
+}
+
+.prev-button-art:hover
+{
+    background-color: rgb(218, 218, 218);
+}
+
+.art-container
+{
+    
+    height: 350px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    position:absolute;
+    /* background-color: pink; */
+    justify-content: center;
+    
+}
+
+/* .three-d-art-content
+{
+    display: flex;
+    height: 400px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    
+} */
+
+
+@media screen and (max-width: 1080px) {
+    .art-content
+    {
+        display: flex;
+        height: 400px;
+        width: 100%;
+        /* background-color:#609de7dc; */
+        justify-content: center;
+        position: absolute;
+        
+    }
+
+    .art-container
+    {
+        position:absolute;
+        height: 100%;
+        align-self: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background-color: pink; */
+    }
+
+
+    .next-button-art
+    {
+        position: absolute;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        z-index: 2;
+        border-radius: 5px;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 2px 2px rgb(80, 99, 165);
+        align-self: flex-end;
+        /* justify-content: center; */
+        right:auto;
+    }
+
+    .prev-button-art
+    { 
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-self: flex-start;
+        z-index: 2;
+        border-radius: 5px;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 2px 2px rgb(80, 99, 165);
+        
+    }
+
+    .art-image
+    {
+        height: 175px;
+        align-self: center;
+    }
+}

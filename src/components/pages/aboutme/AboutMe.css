@@ -1,0 +1,270 @@
+
+.about-me-background
+{
+    width: 100%;
+    /* background:
+    conic-gradient(from 90deg at 3px 3px,#0000 90deg,rgb(255, 168, 224) 0) 
+    0 0/100px 100px; */
+    position: absolute;
+    top: 42px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    z-index: 0;
+    /* height: 100vh; */
+}
+
+.my-profile-container
+{
+    background: #fff;
+	/* filter: contrast(1); */
+	/* --mask: linear-gradient(red, #{rgba(#000, .30)}); */
+    /*DELETEEEEEEEEEEEEEE*/
+
+    width: 710px;
+    height: 420px;
+    background-image: linear-gradient(to right, #d36bca , #cb4bc5);
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+    
+    border-top: #fa93f5;
+    border-left: #c877d6 ;
+    border-right: #e067f3 ;
+    border-bottom: #8f438b ;
+    border-style: solid;
+    
+    border-radius:  5px;
+    
+    box-shadow: -1.5px -1.5px #000000, 2px -2px #000000, -2px 0px #000000,
+    2px 0px #000000, 0 -2px #050404, 2px 0px #000000, 2px 2px #000000, 0px 2px #000000;
+
+    /*DELETEEEEEE*/
+    /* &::before {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background: 
+			radial-gradient(#ed95f1, transparent) 0 0/ 0.3em 0.3em space;
+		-webkit-mask: var(--mask);
+				mask: var(--mask);
+		content: '';
+	} */
+    /*DELETEEEEEE*/
+}
+
+.my-id-card
+{
+    display: flex;
+    position:relative;
+    width: 330px;
+    height: 210px;
+    background-color:#e8e8e8;
+    padding: 9px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    border: solid 2.2px;
+    box-shadow: 3px 3px 1px #ac57b0, -2px 2px 1px #fa93ff, -2px 0px 1.5px #fa93ff,
+    2px 0px 1.5px #fa93ff, 0 2px 1.5px #fa93ff, -2px -2px 1.5px #fa93ff, 2px -2px 1.5px #fa93ff;
+    border-radius: 10px;
+}
+
+.my-id-image
+{
+    margin: 3px;
+    width: 92px;
+    height: 110px;
+    border: solid 2.2px;
+    box-shadow: 2px 2px #cecece, -2px 2px #cecece, -2px 0px #cecece,
+    2px 0px #cecece, 0 2px #cecece, -2px -2px #cecece, 2px -2px #cecece;
+    position: absolute;
+}
+
+.my-id-name
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 30px;
+    /* width: 100%; */
+    text-align: start;
+    margin-left: 110px;
+    margin-top: 10px;
+    color:#424242;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4f4f4f;
+    font-family: MSSansSerif;
+    position: absolute;
+}
+
+.my-profile-content
+{
+    width: 206px;
+    height: 72px;
+    margin-top: 42px;
+    margin-left: 110px;
+    position: absolute;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:#424242;
+    font-family: MSSansSerif;
+    text-align: start;
+    background-color: #d0d0d0;
+}
+
+.my-profile-content-2
+{
+
+    width: 100%;
+    height: 85px;
+    top: 125px;
+    /* margin-top: 130px;
+    margin-left: 3px; */
+    /* margin-bottom: 5px; */
+    position: relative;
+    font-size: 0.92rem;
+    color:#424242;
+    font-family: MSSansSerif;
+    text-align: start;
+    background-color: #b9c0cc;
+    padding-left: 4px;
+    /* padding-top: 4px; */
+}
+
+.id-logo
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 7px;
+    position: absolute;
+}
+
+.more-info-container
+{
+    display: flex;
+    position: absolute;
+    width: 663px;
+    height: 130px;
+    background-color: #d547ce88;
+    border: solid 2.2px;
+    border-color: #c944c2;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 260px;
+}
+
+.more-info-caption
+{
+    margin-left: 4px;
+    margin-top: 3.5px;
+    display: flex;
+    /* width: 129px; */
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #d547ce88;
+    border-width: 2px;
+    border-color: #c944c2;
+
+    font-family: "MSSansSerifBold";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color:#000000;
+}
+
+.more-info-text
+{
+    position:absolute;
+    font-family: "MSSansSerifBold";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#000000;
+    margin-left: 8px;
+    margin-top: 42px;
+    /* background-color: #dd5d5d; */
+    /* height: 70px; */
+    margin-bottom: 8px;
+    width: 646px;
+}
+
+.contact-container
+{
+    display: flex;
+    width: 292px;
+    height: 220px;
+    background-color: #d547ce88;
+    border: solid 2.2px;
+    border-color: #c944c2;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contact-caption-box
+{
+    margin-left: 4px;
+    margin-top: 3.5px;
+    display: flex;
+    width: 162px;
+    height: 33px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #d547ce88;
+    border-width: 2px;
+    border-color: #c944c2;
+}
+
+.contact-info-text
+{
+    position:absolute;
+    font-family: "MSSansSerifBold";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#000000;
+    margin-left: 8px;
+    margin-top: 50px;
+    /* background-color: #dd5d5d; */
+    height: 118px;
+    width: 646px;
+}
+
+.contact-special-text
+{
+    font-family: "MSSansSerifBold";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(254, 241, 167);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#000000;
+}
+
+.linkedin-logo-container
+{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 160px;
+    margin-left: 10px;
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.github-logo-container
+{
+    width: 50px;
+    height: 50px;
+    /* background-color: #ffffff00; */
+    margin-top: 160px;
+    margin-left: 80px;
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+}
