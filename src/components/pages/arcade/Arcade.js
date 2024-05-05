@@ -30,9 +30,9 @@ function Arcade() {
             <img src = {pixelConsole} className = "console-img" alt = ""/>
           </h1>
           <div className = 'thumbnail-container'>
-            <Link to = "/creamistry" className = "game-thumbnail">
+            <a href = "https://jjl418.github.io/CreamistryGame/" className = "game-thumbnail">
               <img src = {creamistryThumbnail} className = "creamistry-thumbnail-img" alt = ""/>
-            </Link>
+            </a>
             <a href = "https://jjl418.github.io/MonsterBartenderGame/" className = "game-thumbnail">
               <img src = {monsterThumnmail} className = "monster-thumbnail-img" alt = ""/>
             </a>
