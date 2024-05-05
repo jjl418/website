@@ -1,6 +1,6 @@
 import '../../../App';
 import './Arcade.css';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import creamistryThumbnail from '../../../images/arcade/creamistry-thumbnail.png';
 import monsterThumnmail from '../../../images/arcade/monster-thumbnail.png';
 import pixelConsole from '../../../images/arcade/pixel-console.png';
