@@ -28,7 +28,7 @@ function AboutMe() {
               <p/>
               Class of 2024 (USC Viterbi)
               <p/>
-              GPA: 3.4
+              GPA: 3.42
             </h1>
             <h1 className = "my-profile-content-2">
               Languages: C++, C#, C, Java, Javascript, CSS, HTML
