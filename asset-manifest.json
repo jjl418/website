@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.fc4152b7.css",
-    "main.js": "/website/static/js/main.ddabce83.js",
+    "main.js": "/website/static/js/main.6721db65.js",
     "static/media/Monster_Bartender_demo.mp4": "/website/static/media/Monster_Bartender_demo.7666c9db364d4e64edd0.mp4",
     "static/media/BB_demo.mp4": "/website/static/media/BB_demo.433d908694a55eccd5c0.mp4",
     "static/media/Trivia-game_demo.mp4": "/website/static/media/Trivia-game_demo.1cca67d969e141428a21.mp4",
@@ -86,10 +86,10 @@
     "static/media/pixel-console.png": "/website/static/media/pixel-console.de815dc9fbe8ce2a9a4a.png",
     "index.html": "/website/index.html",
     "main.fc4152b7.css.map": "/website/static/css/main.fc4152b7.css.map",
-    "main.ddabce83.js.map": "/website/static/js/main.ddabce83.js.map"
+    "main.6721db65.js.map": "/website/static/js/main.6721db65.js.map"
   },
   "entrypoints": [
     "static/css/main.fc4152b7.css",
-    "static/js/main.ddabce83.js"
+    "static/js/main.6721db65.js"
   ]
 }
